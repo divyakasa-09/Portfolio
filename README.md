@@ -1,6 +1,7 @@
 
 
-# 3D Portfolio with Interactive Dog
+# 3D Portfolio 
+
 
 Welcome to my 3D portfolio! This project showcases my skills in web development, utilizing HTML, Next.js, JavaScript, Node.js, and Three.js to create an immersive and interactive experience. The standout feature is an animated dog that responds to user input – it walks when you start typing and runs when a message is submitted.
 
