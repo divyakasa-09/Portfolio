@@ -24,8 +24,8 @@ const About = () => {
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
           Software Engineer, I am currently pursuing my Master of Science in Information Systems at Northeastern University, Boston, MA.
-          I enjoy building applications and solving complex problems.<br></br><br></br> I am actively looking for <strong>Internship/Co-op and Full Time Opportunities For Software Development Roles</strong>.
-         <br></br><br></br> I am a quick learner and am always open to learning new technologies to stay ahead in the ever-evolving field of software engineering.<br></br>
+          I enjoy building applications and solving complex problems.<br></br><br></br> I am actively looking for <strong>Full Time Opportunities For Software Development Roles</strong> starting <strong>May 2025</strong>.
+         <br></br><br></br> I am a quick learner and I'm always open to learning new technologies to stay ahead in the ever-evolving field of software engineering.<br></br>
 
 <br></br>In addition to my technical skills, I possess strong problem-solving abilities, effective communication skills, and the ability to work well both independently and as part of a team. I thrive in a dynamic and fast-paced environment, and I am always eager to take on new challenges and responsibilities.
         </p>

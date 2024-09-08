@@ -9,6 +9,7 @@ import np1 from './np1.jpeg';
 import husky from './husky.png';
 import jntuh from './jntuh.png';
 import cog from './cog1.png'
+import Accdian from './Accdian.png';
 
 export {
     hero,
@@ -21,5 +22,6 @@ export {
     np1,
     husky,
     jntuh,
-    cog
+    cog,
+    Accdian
 }

@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, husky, jntuh,cog  } from "../assets/images";
+import { meta, shopify, starbucks, tesla, husky, jntuh, cog, Accdian } from "../assets/images";
 
 import {
     car,
@@ -145,17 +145,25 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Software Engineer Co-op",
+        company_name: "Acadian Asset Management",
+        icon: Accdian,
+        iconBg: "#accbe1",
+        date: "June 2024 - Present",
+        points: [
+              "Led the development of a cloud-based ETL pipeline, streamlining data transfer and optimizing query performance in AWS. Managed cloud infrastructure using Terraform, deployed production updates via CI/CD pipelines, and collaborated with cross-functional teams to deliver solutions with improved system performance",
+              "Technologies : AWS(Athena, Step Functions, RDS, DynamoDB, Lambda, S3, EC2, AWS CloudWatch), C#, Python, Terraform, GraphQL, SQL Server, NewRelic, Snowflake, PostgreSQL"
+        ],
+    },
+    {
         title: "Full Stack Software Developer",
         company_name: "Cognizant",
         icon: cog,
         iconBg: "#accbe1",
         date: "Sept 2021 - December 2022",
         points: [
-            "Developed and improved an Edtech web Application using React, .ASP NET MVC and SQL SERVER ",
-            "Built and integrated Educator dashboard with RESTful web servies to enhance application features using .NET and SQL SERVER",
-            "Enhanced application features by modifying backend in C# to eliminate empty file creation during ETL process for acquired data, resulted in a 30% increase in application performance and efficiency",
-            "Contributed to successful migration of legacy code to modern C# and .NET platforms, integrated unit-test cases into Azure’s CI/CD pipeline, resulting in a 12.5% improvement in code coverage, and ensuring smooth and reliable software builds",
-            "Involved in Agile/Scrum-driven development by actively participating in sprint planning, daily stand-up meetings, and consistently achieving sprint objectives"
+            "Developed and improved an Ed-Tech web Application using C#, AngularJS, Entity framework, ASP.NET  and SQL SERVER ",
+              "Technologies : AWS, C#, AngularJS, Entity framework, ASP.NET, SQL SERVER, JavaScript, HTTP, LINQ, Plotly.js, HighCharts, RESTful APIs, MVC, Jira, Git, Github, Unit Testing and NUnit Framework"
         ],
     },
     {
@@ -165,9 +173,9 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "Feb 2021 - Aug 2021",
         points: [
-            "Built a web application with the team of 3 other interns, that could perform all the CRUD functionalities using .NET and SQLSERVER within tight deadlines, resulting in a fully functional System that met all requirements",
-            "Developed RESTful APIs for communication between the front-end [Angular] and back-end [ASP.NET MVC] components of the application",
-            "Coordinated with cross-functional teams and improve the reusability of UI components by optimizing code, resulted in a 20% decrease in code duplication",
+            "Built a web application with the team of 3 other interns, that could handle all the HTTPS Requests using .NET and SQLSERVER within tight deadlines, resulting in a fully functional System that met all requirements",
+            "Technologies : Azure, C#, AngularJS, Entity framework, ASP.NET, SQL SERVER, RESTful APIs, MVC, Jira, Git, Github, JavaScript, HTTP, LINQ "
+        
       
         ],
     },
@@ -182,7 +190,7 @@ export const education = [
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points : [
-            "Relavant Courses: Application Development Engineering, Web Design and User Experience, Program Structures and Algorithms, Databases, Object Oriented Design, UI/UX"
+            "Relavant Courses: Application Development Engineering, Web Design and User Experience, Program Structures and Algorithms, Databases, Object Oriented Design, UI/UX, Data Science, Network Structures and Cloud Computing "
             
         ]
     },
