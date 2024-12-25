@@ -14,7 +14,7 @@ const Footer = () => {
 
         <div className='flex gap-3 justify-center items-center'>
           <div>857-317-1777</div>
-          <div>kasa.d@northeastern.edu</div>
+          <div>divyakasa.edu@gmail.com</div>
           {socialLinks.map((link) => (
             <Link key={link.name} to={link.link} target='_blank'>
               <img

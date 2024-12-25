@@ -23,7 +23,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer, I am currently pursuing my Master of Science in Information Systems at Northeastern University, Boston, MA.
+          Software Engineer, I have about 2 years of Experience. I am currently pursuing my Master of Science in Information Systems at Northeastern University, Boston, MA.
           I enjoy building applications and solving complex problems.<br></br><br></br> I am actively looking for <strong>Full Time Opportunities For Software Development Roles</strong> starting <strong>May 2025</strong>.
          <br></br><br></br> I am a quick learner and I'm always open to learning new technologies to stay ahead in the ever-evolving field of software engineering.<br></br>
 
@@ -86,24 +86,27 @@ const About = () => {
 
         
        </div>
-      <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+       <div className='py-10 flex flex-col'>
+  <h3 className='subhead-text'>My Skills</h3>
 
-        <div className='mt-16 flex flex-wrap gap-12'>
-          {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
-              <div className='btn-back rounded-xl' />
-              <div className='btn-front rounded-xl flex justify-center items-center'>
-                <img
-                  src={skill.imageUrl}
-                  alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain'
-                />
-              </div>
-            </div>
-          ))}
+  <div className='mt-16 flex flex-wrap gap-12'>
+    {skills.map((skill) => (
+      <div className='flex flex-col items-center' key={skill.name}>
+        <div className='block-container w-20 h-20'>
+          <div className='btn-back rounded-xl' />
+          <div className='btn-front rounded-xl flex justify-center items-center'>
+            <img
+              src={skill.imageUrl}
+              alt={skill.name}
+              className='w-1/2 h-1/2 object-contain'
+            />
+          </div>
         </div>
+        <p className='mt-2 text-sm text-slate-500'>{skill.name}</p>
       </div>
+    ))}
+  </div>
+</div>
 
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>

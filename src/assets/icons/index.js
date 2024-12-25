@@ -34,8 +34,25 @@ import sqlserver from './sqlserver.svg'
 import vscode from './vscode.svg'
 import swiftui from './swiftui.svg'
 import price_tracker from './price_tracker.svg'
-
-
+import earth from './earth.svg'
+import assistant from './assistant.svg'
+import stock from './stock.svg'
+import tensorflow from './tensorflow.svg'
+import fastapi from './fastapi.svg';
+import postgresql from './postgresql.svg'
+import threejs from './threejs.svg'
+import materialui from './materialui.svg'
+import streamlit from './streamlit.svg'
+import numpy from './numpy.svg'
+import pandas from './pandas.svg'
+import aws from './aws.svg'
+import DOTNET from './DOTNET.svg'
+import terraform from './terraform.svg'
+import snowflake from './snowflake.svg'
+import splunk from './splunk.svg'
+import graphql from './graphql.svg'
+import keras from './keras.svg'
+import portfolio from './portfolio.svg'
 export {
     css,
     express,
@@ -72,5 +89,24 @@ export {
     sqlserver,
     vscode,
     swiftui,
-    price_tracker
+    price_tracker,
+    earth,
+    assistant,
+    stock,
+    tensorflow,
+    fastapi,
+    postgresql,
+    threejs,
+    materialui,
+    streamlit,
+    numpy,
+    pandas,
+    aws,
+    DOTNET,
+    terraform,
+    snowflake,
+    splunk,
+    graphql,
+    keras,
+    portfolio
 }

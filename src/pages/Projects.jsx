@@ -27,7 +27,7 @@ const Projects = () => {
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
                   src={project.iconUrl}
-                  alt='threads'
+                  alt='project icon'
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
@@ -38,6 +38,19 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
+              
+              {/* Skills section */}
+              <div className='mt-4 flex flex-wrap gap-2'>
+                {project.skills.map((skill, index) => (
+                  <span
+                    key={index}
+                    className='px-2 py-1 bg-blue-50 text-blue-600 text-sm rounded-full'
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
                   to={project.link}
